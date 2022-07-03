@@ -22,6 +22,7 @@ p {
 .intro {
     width: 70%;
     padding-left: 5%;
+    margin: 20px;
 }
 
 .intro img {
@@ -30,6 +31,7 @@ p {
 
 section {
     display: flex;
+    margin-bottom: 50px;
 }
 
 .link_button {
@@ -45,4 +47,10 @@ section {
 .topmost {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.middle {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
